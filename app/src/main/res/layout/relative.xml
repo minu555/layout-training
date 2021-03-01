@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:text="Relative Layout"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/txt1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="second text"
+        android:textSize="34dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@id/text2"
+        android:layout_centerInParent="true"
+        android:layout_height="55dp"
+        android:layout_width="150dp"
+        android:text="a button"
+        />
+</RelativeLayout>
